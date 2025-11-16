@@ -1,22 +1,16 @@
 public class Snehal {
-    public static void main (String args[]) {
-        //System.out.println("even numbers from 1 to 100:");
-        //for (int i = 1; i <= 100; i++) {
+    public static void main(String[] arg) {
 
-            //if (i % 2 == 0) {
-               // System.out.println(i);
-           // }
-            //for (int i = 0; i < 5; i++) {
-                ///for( int j=0; j< 5; i++){
-               // System.out.println("*");
-int []
-                }
-
+        String str = "JavaAE";
+        String str2 = str.toLowerCase(); // javavaae
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count += 1;
             }
 
+        }
+        System.out.println("Number of vowels:" + count);
     }
-
-
-
-
-
+}
